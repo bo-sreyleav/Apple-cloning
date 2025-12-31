@@ -247,8 +247,7 @@ const Navbar = ({ cartCount, onOpenBag, cartItems = [], products }) => {
                                     e.preventDefault();
                                     handleNavigateAndClose(item.href);
                                 }}
-                                className={`text-[12px] font-normal transition-colors flex items-center h-full px-1 ${currentPage === item.label.toLowerCase() ? 'text-black font-semibold' : 'text-zinc-700 hover:text-black'
-                                    }`}
+                                className="text-[12px] font-normal transition-colors flex items-center h-full px-1 text-zinc-700 hover:text-black"
                             >
                                 {item.label}
                             </a>
