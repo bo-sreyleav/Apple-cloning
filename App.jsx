@@ -112,7 +112,7 @@ const App = () => {
 
     return (
         <div className="flex flex-col min-h-screen bg-white overflow-x-hidden">
-            <Navbar />
+            <Navbar products={products} />
 
             <main className="flex-grow">
                 <div className="pt-12">
